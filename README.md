@@ -13,6 +13,9 @@ vs other games that strip those as well, which make it hard to find. As shown he
 
 This python script works on both versions, so how to do it is the same. I will be using IDA-Pro for this, but ghidra is roughly the same process.
 
+# quick info
+libunity.so (android) = unityplayer.dll (PC) (but you cant use the other file for the non obfuscated version, E.G you cant use a libunity and unityplayer, both have to be same platforms)
+
 # Step 1
 
 To start, open the libunity.so for the target game in your decompiler (if you're using ghidra, wait for it to fully finish analyzing)
@@ -58,5 +61,3 @@ The exported file with all the symbols should just be SymbolMap.json, here's wha
 Credits to L on discord (for supplying me with fixed version)
 
 Credits to the w of a person named Pubert.CS (the original maker of the finding obfuscated symbols)
-# quick info
-libunity.so (android) = unityplayer.dll (PC) (but you cant use the other file for the non obfuscated version, E.G you cant use a libunity and unityplayer, both have to be same platforms)
