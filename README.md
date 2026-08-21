@@ -59,4 +59,4 @@ Credits to L on discord (for supplying me with fixed version)
 
 Credits to the w of a person named Pubert.CS (the original maker of the finding obfuscated symbols)
 # quick info
-libunity.so (android) = unityplayer.dll (but you cant use the other file for the non obfuscated version, E.G you cant use a libunity and unityplayer, both have to be same platforms)
+libunity.so (android) = unityplayer.dll (PC) (but you cant use the other file for the non obfuscated version, E.G you cant use a libunity and unityplayer, both have to be same platforms)
